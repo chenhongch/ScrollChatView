@@ -3,6 +3,9 @@
 #### 1. 效果图
 ![icon](https://github.com/chenhongch/ScrollChatView/blob/master/iPhone8Plus%20-%202018-05.png)
 
+![icon](https://github.com/chenhongch/ScrollChatView/blob/master/滚动聊天.gif)
+
+
 #### 2. 方法
  
 /**
