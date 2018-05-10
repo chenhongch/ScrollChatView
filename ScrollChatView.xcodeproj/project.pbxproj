@@ -15,6 +15,8 @@
 		A550672F20A41C7400ED11FB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A550672E20A41C7400ED11FB /* main.m */; };
 		A550673920A41C7500ED11FB /* ScrollChatViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A550673820A41C7500ED11FB /* ScrollChatViewTests.m */; };
 		A550674420A41C7500ED11FB /* ScrollChatViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A550674320A41C7500ED11FB /* ScrollChatViewUITests.m */; };
+		A550675420A41E6000ED11FB /* ScrollChatView.m in Sources */ = {isa = PBXBuildFile; fileRef = A550675220A41E6000ED11FB /* ScrollChatView.m */; };
+		A550675720A4242C00ED11FB /* ScrollChatTextModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A550675620A4242C00ED11FB /* ScrollChatTextModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		A550673F20A41C7500ED11FB /* ScrollChatViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrollChatViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A550674320A41C7500ED11FB /* ScrollChatViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrollChatViewUITests.m; sourceTree = "<group>"; };
 		A550674520A41C7500ED11FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A550675220A41E6000ED11FB /* ScrollChatView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollChatView.m; sourceTree = "<group>"; };
+		A550675320A41E6000ED11FB /* ScrollChatView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollChatView.h; sourceTree = "<group>"; };
+		A550675520A4242C00ED11FB /* ScrollChatTextModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScrollChatTextModel.h; sourceTree = "<group>"; };
+		A550675620A4242C00ED11FB /* ScrollChatTextModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrollChatTextModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,7 @@
 		A550671E20A41C7400ED11FB /* ScrollChatView */ = {
 			isa = PBXGroup;
 			children = (
+				A550675120A41E5600ED11FB /* ScrollChatView */,
 				A550671F20A41C7400ED11FB /* AppDelegate.h */,
 				A550672020A41C7400ED11FB /* AppDelegate.m */,
 				A550672220A41C7400ED11FB /* ViewController.h */,
@@ -130,6 +137,17 @@
 				A550674520A41C7500ED11FB /* Info.plist */,
 			);
 			path = ScrollChatViewUITests;
+			sourceTree = "<group>";
+		};
+		A550675120A41E5600ED11FB /* ScrollChatView */ = {
+			isa = PBXGroup;
+			children = (
+				A550675320A41E6000ED11FB /* ScrollChatView.h */,
+				A550675220A41E6000ED11FB /* ScrollChatView.m */,
+				A550675520A4242C00ED11FB /* ScrollChatTextModel.h */,
+				A550675620A4242C00ED11FB /* ScrollChatTextModel.m */,
+			);
+			path = ScrollChatView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,7 +284,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A550672420A41C7400ED11FB /* ViewController.m in Sources */,
+				A550675720A4242C00ED11FB /* ScrollChatTextModel.m in Sources */,
 				A550672F20A41C7400ED11FB /* main.m in Sources */,
+				A550675420A41E6000ED11FB /* ScrollChatView.m in Sources */,
 				A550672120A41C7400ED11FB /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
